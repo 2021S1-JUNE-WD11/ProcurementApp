@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1029661455593",
+    "firebase_url": "https://procurementsystemx-default-rtdb.firebaseio.com",
+    "project_id": "procurementsystemx",
+    "storage_bucket": "procurementsystemx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029661455593:android:5d0d12b75406196cfb2c78",
+        "android_client_info": {
+          "package_name": "com.example.csse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029661455593-aq4ugj3v47frcrb0egs8nmdqoobvs6mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaUBMdeGtZgkatj2GAwydOLS6Xup9U5zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029661455593-aq4ugj3v47frcrb0egs8nmdqoobvs6mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029661455593:android:c33fe8aa59c63ed6fb2c78",
+        "android_client_info": {
+          "package_name": "com.example.procurementapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029661455593-aq4ugj3v47frcrb0egs8nmdqoobvs6mk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaUBMdeGtZgkatj2GAwydOLS6Xup9U5zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029661455593-aq4ugj3v47frcrb0egs8nmdqoobvs6mk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

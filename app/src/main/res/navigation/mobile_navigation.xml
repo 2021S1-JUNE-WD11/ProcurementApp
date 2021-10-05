@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.procurementapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.procurementapp.ui.profile.ProfileFragment"
+        android:label="profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_item"
+        android:name="com.example.procurementapp.ui.Items.ItemsFragment"
+        android:label="Items"
+        tools:layout="@layout/fragment_items" />
+    <fragment
+        android:id="@+id/counterorderFragment"
+        android:name="com.example.procurementapp.CounterorderFragment"
+        android:label="Counter Orders"
+        tools:layout="@layout/fragment_counterorder" />
+    <fragment
+        android:id="@+id/acceptedOrdersFragment"
+        android:name="com.example.procurementapp.AcceptedOrdersFragment"
+        android:label="Accepted orders"
+        tools:layout="@layout/fragment_accepted_orders" />
+    <fragment
+        android:id="@+id/sendOrdersFragment"
+        android:name="com.example.procurementapp.SendOrdersFragment"
+        android:label="Send orders"
+        tools:layout="@layout/fragment_send_orders" />
+    <fragment
+        android:id="@+id/pendingOrderFragment"
+        android:name="com.example.procurementapp.PendingOrderFragment"
+        android:label="Pending orders"
+        tools:layout="@layout/fragment_pending_order" />
+</navigation>
